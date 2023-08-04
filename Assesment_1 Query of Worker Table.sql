@@ -21,7 +21,7 @@ SELECT Worker_ID, FIRST_NAME, LAST_NAME, SALARY, date_format(JOINING_DATE,'%m/%e
 /* Q.1 Write an SQL query to print all Worker details from the Worker table order by FIRST_NAME
 Ascending and DEPARTMENT Descending. */
 
-select * from worker order by FIRST_NAME asC,DEPARTMENT DESC;
+select * from worker order by FIRST_NAME asc,DEPARTMENT desc;
 
 /* 2.Write an SQL query to print details for Workers with the first names “Vipul” and “Satish”
 from the Worker table.*/
